@@ -1,0 +1,25 @@
+/* Flex stylesheet for the website */
+
+.flex-row-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-row-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-center-align{
+    align-items: center;
+}
+
+.row-start{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.row-end{
+    display: flex;
+    justify-content: flex-end;
+}

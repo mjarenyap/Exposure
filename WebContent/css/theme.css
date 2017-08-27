@@ -1,0 +1,487 @@
+/* Theme stylesheet for the website */
+/* red = #ff3366 | dark red = #e52756 */
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans', "sans-serif";
+    background-color: white;
+    color: #555;
+    font-size: 0.9em;
+    background-color: white;
+}
+
+body{
+    margin-top: 62px;
+}
+
+form{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+section, header{
+    padding: 80px 120px;
+}
+
+#logo{
+    margin: 5px 0;
+}
+
+#search{
+    width: 100%;
+    background-color: #444;
+    border: none;
+    padding: 12px 15px;
+    color: #ccc;
+    text-indent: 30px;
+    background-image: url("../assets/icons/search.svg");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+#search-form{
+	width: 40%;
+}
+
+nav{
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    padding: 0 120px;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0px 0px 100px #aaa;
+    z-index: 999;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    padding: 10px 5px;
+    color: #555;
+    list-style-type: none;
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+a{
+    color: #ff3366;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav li#avatar{
+    margin: 0 15px;
+}
+
+nav img.avatar{
+    width: 25px;
+    height: 25px;
+    margin-top: -3px;
+    margin-right: 10px;
+    float: left;
+}
+
+nav ul li#account{
+    color: white;
+    padding: 0 20px;
+}
+
+textarea{
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    height: 100px;
+}
+
+input{
+    outline: none;
+    border-radius: 5px;
+}
+
+.field{
+    border: thin solid #ddd;
+    padding: 15px;
+    color: #333;
+    width: 100%;
+}
+
+input.button{
+    border: thin solid #ff3366;
+    background-color: #ff3366;
+    color: white;
+    padding: 13px 20px;
+    cursor: pointer;
+}
+
+input.hallow-button{
+    border: thin solid #ff3366;
+    color: #ff3366;
+    background-color: transparent;
+    padding: 13px 20px;
+    cursor: pointer;
+}
+
+input.link, form.link{
+    color: #ff3366;
+    font-size: 1em;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+nav form.link{
+	display: inline;
+	color: white;
+	margin: 0;
+}
+
+nav input.hallow-button{
+    font-family: 'brandon grotesque', sans-serif;
+    letter-spacing: 2px;
+    padding: 9px 20px;
+    border-radius: 5px;
+}
+
+span.required{
+    color: #ff3366;
+}
+
+form > div{
+    margin-bottom: 20px;
+}
+
+form > div > h5{
+    margin-bottom: 8px;
+}
+
+.form-wrapper{
+    width: 410px;
+}
+
+.header-form-wrapper{
+    margin: 0 auto;
+}
+
+#hero{
+    padding: 60px 120px;
+}
+
+#hero .headline, #hero .tagline{
+    font-style: italic;
+    text-align: center;
+}
+
+#hero-image{
+    width: 30%;
+    height: 30%;
+}
+
+#opener{
+    margin: 30px 0;
+}
+
+.headline{
+    font-size: 2.0em;   
+}
+
+.tagline{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.keyword{
+    color: #ff3366;
+}
+
+div.left-form-panel{
+    border-right: thin solid #ccc;
+    display: inline-block;
+    width: 350px;
+    padding-right: 130px;
+}
+
+div.left-form-panel .featured-image{
+    margin: 30px 0;
+    width: 320px;
+    height: 320px;
+}
+
+p.error-message{
+    color: #ff3366;
+    padding: 10px 20px;
+    border: thin solid #ff3366;
+    border-radius: 3px;
+}
+
+div.submit-part{
+    align-items: center;
+}
+
+header.form-container > div{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#user-info-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: thin solid #eee;
+    padding-right: 450px;
+    background-color: #fcfcfc;
+}
+
+#user-info-wrapper .avatar{
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+}
+
+#user-info p{
+    margin: 10px 0;
+}
+
+#user-info .username{
+    color: #ff3366;
+    font-size: 1.15em;
+}
+
+#user-info .description{
+    font-size: 1.2em;
+}
+
+section.tab-wrapper{
+    padding: 10px 120px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: thin solid #eee;
+}
+
+section.tab-wrapper ul{
+    margin: 0;
+    padding: 0;
+}
+
+section.tab-wrapper ul li{
+    padding: 20px;
+    display: inline;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+section.tab-wrapper ul li.active{
+    color: #ff3366;
+}
+
+section.search-wrapper{
+    padding: 30px 120px;
+    background-color: #fafafa;
+    border-bottom: thin solid #eee;
+}
+
+section.three-column-content{
+    border-top: thin solid #eee;
+    border-bottom: thin solid #eee;
+    background-color: #fbfbfb;
+    align-items: flex-start;
+}
+
+section.three-column-content div{
+    width: 30%;
+    text-align: center;
+}
+
+section.three-column-content img{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 30px;
+}
+
+section.photo-feed, section.shared-feed, section.edit-feed{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+section.shared-feed, section.edit-feed{
+	display: none;
+}
+
+section.edit-feed input.field{
+    margin-top: 10px;
+    padding: 7px 15px;
+    width: 89%;
+}
+
+div.photo-wrapper{
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+    background-color: white;
+    width: 255px;
+    margin: 11px 10px;
+}
+
+.photo-wrapper .thumbnail{
+    height: 200px;
+    border-radius: 3px;
+    background-color: #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.photo-wrapper .title{
+	margin-bottom: 0;
+}
+
+.photo-wrapper p.owner, #popup-wrapper .owner{
+    color: #ff3366;
+    font-size: 0.95em;
+    margin: 0;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    padding: 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#popup-wrapper .owner{
+	margin-top: 7px;
+	font-size: 1em;
+	background-color: transparent;
+	border: none;
+}
+
+.photo-wrapper div.description{
+	display: none;
+}
+
+.photo-wrapper .tag-wrapper{
+    margin-top: 10px;
+}
+
+.photo-wrapper .tag-wrapper span{
+    font-size: 0.9em;
+    color: #ccc;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: white;
+    border-top: 1px solid #eee;
+    padding: 30px 120px;
+    text-align: center;
+    font-size: 0.85em;
+    font-family: 'brandon grotesque', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#popup-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow-y: scroll;
+    padding: 70px;
+}
+
+#popup-container #popup-wrapper{
+    background-color: #f4f4f4;
+    border-radius: 3px;
+    padding: 20px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#popup-container #close{
+    width: 30px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#popup-container .actual-container{
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.upload-feed{
+    background-color: #fafafa;
+}
+
+.upload-wrapper{
+    margin: 15px 0;
+}
+
+.upload-image{
+    width: 500px;
+    height: 350px;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.upload-details{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.upload-details .field{
+    width: 94%;
+    margin-bottom: 30px;
+}
+
+.upload-details h4{
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.upload-details textarea{
+    height: 100px;
+}
+
+#upload-field{
+    padding: 100px;
+    border: 2px dashed #bbb;
+    color: #bbb;
+    text-align: center;
+}
+
+#upload-field p{
+    font-size: 2em;
+    margin: 3px;
+}
+
+#upload-field span{
+    font-size: 1em;
+}
